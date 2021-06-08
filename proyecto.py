@@ -452,7 +452,10 @@ def lematizacion ():
             lista[i] = re.sub('-pak', '', lista[i])
             lista[i] = re.sub('-pa', '', lista[i])
             lista[i] = re.sub('-yuk', '', lista[i])
-            lista[i] = re.sub('-pura', '', lista[i])        
+            lista[i] = re.sub('-pura', '', lista[i])
+            lista[i] = re.sub('-ta', '', lista[i])
+            lista[i] = re.sub('-ka', '', lista[i])
+            lista[i] = re.sub('-ma', '', lista[i])        
             #tabla        
             lista[i] = re.sub('wichkashkami.', 'wichkana', lista[i])
             lista[i] = re.sub('wikiyukmi', 'wikiyuk', lista[i])
